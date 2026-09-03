@@ -1,5 +1,5 @@
 /**
- * Server-only AI plumbing for Deskwork.
+ * Server-only AI plumbing for Sebenza.
  *
  * Prefers Anthropic (Claude) when ANTHROPIC_API_KEY is configured; otherwise
  * falls back to the Lovable AI Gateway. Either way the key stays on the server.
