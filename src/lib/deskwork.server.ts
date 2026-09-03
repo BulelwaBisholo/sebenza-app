@@ -97,7 +97,7 @@ const NO_INVENTION =
   "Return plain text only — no markdown code fences, no commentary about your process.";
 
 export const CHAT_SYSTEM =
-  "You are Deskwork's workplace assistant: helpful, concise and professional. " +
+  "You are Sebenza's workplace assistant: helpful, concise and professional. " +
   "Answer in short, practical paragraphs or bullets. " +
   "If you do not know something, or the question needs up-to-date information you do not have, say so plainly instead of guessing. " +
   "Never fabricate facts, statistics or sources. Return plain text only — no markdown code fences.";

@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Deskwork — AI workplace productivity assistant" },
+      { title: "Sebenza — AI workplace productivity assistant" },
       {
         name: "description",
         content:
-          "Deskwork drafts professional emails, summarizes meeting notes and plans your day — three focused AI tools for everyday desk work.",
+          "Sebenza drafts professional emails, summarizes meeting notes and plans your day — three focused AI tools for everyday desk work.",
       },
-      { name: "author", content: "Deskwork" },
-      { property: "og:title", content: "Deskwork — AI workplace productivity assistant" },
+      { name: "author", content: "Sebenza" },
+      { property: "og:title", content: "Sebenza — AI workplace productivity assistant" },
       {
         property: "og:description",
         content: "Draft emails, summarize meetings and plan tasks with three focused AI tools.",

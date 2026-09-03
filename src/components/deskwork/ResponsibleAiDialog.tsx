@@ -13,7 +13,7 @@ const POINTS = [
   "This tool generates drafts, not final answers — always review output before sending, sharing, or acting on it.",
   "AI can miss context you didn't type in, and can sound confident while being wrong. It will not invent names, dates, or deadlines you didn't provide — but double-check anything time-sensitive.",
   "Like all AI tools, responses can reflect bias present in training data. If an output feels off for your audience or context, trust your judgement over the draft.",
-  "Nothing you type into Deskwork is stored or reused once you close this page.",
+  "Nothing you type into Sebenza is stored or reused once you close this page.",
 ];
 
 export function ResponsibleAiDialog() {
@@ -32,7 +32,7 @@ export function ResponsibleAiDialog() {
         <DialogHeader>
           <DialogTitle className="text-xl">Using this tool responsibly</DialogTitle>
           <DialogDescription className="sr-only">
-            Guidance on reviewing AI-generated output from Deskwork.
+            Guidance on reviewing AI-generated output from Sebenza.
           </DialogDescription>
         </DialogHeader>
         <ul className="space-y-3.5 text-sm leading-relaxed text-foreground">
