@@ -22,8 +22,8 @@ export function OutputPanel({ title, emptyHint, loading, error, text }: Props) {
   };
 
   return (
-    <section className="paper-sheet flex h-full min-h-[24rem] flex-col rounded-md">
-      <header className="flex items-center justify-between gap-3 border-b border-border px-5 py-3">
+    <section className="panel flex h-full min-h-[24rem] flex-col">
+      <header className="flex items-center justify-between gap-3 border-b border-border px-5 py-3.5">
         <h3 className="text-base font-semibold">{title}</h3>
         {text ? (
           <Button variant="outline" size="sm" onClick={copy} className="gap-1.5">
