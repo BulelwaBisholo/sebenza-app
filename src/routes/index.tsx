@@ -171,6 +171,7 @@ function Deskwork() {
           Deskwork
         </p>
         <p className="mt-1 text-xs text-sidebar-foreground/60">Workplace AI assistant</p>
+        <p className="mt-3 text-xs font-medium text-sidebar-foreground/80">Bulelwa Bisholo</p>
       </div>
       {nav(onSelect)}
       <p className="mt-auto text-[0.7rem] leading-relaxed text-sidebar-foreground/55">
