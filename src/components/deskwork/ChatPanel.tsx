@@ -93,7 +93,7 @@ export function ChatPanel() {
           ref={inputRef}
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
-          placeholder="Message Deskwork…"
+          placeholder="Message Sebenza…"
           aria-label="Message"
         />
         <Button type="submit" disabled={loading || !draft.trim()} className="gap-1.5">

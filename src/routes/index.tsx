@@ -35,13 +35,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Deskwork — AI assistant for emails, meetings & planning" },
+      { title: "Sebenza — AI assistant for emails, meetings & planning" },
       {
         name: "description",
         content:
           "Five focused AI desk tools: write emails, summarize meeting notes, plan tasks, research topics and chat with a workplace assistant.",
       },
-      { property: "og:title", content: "Deskwork — AI workplace productivity assistant" },
+      { property: "og:title", content: "Sebenza — AI workplace productivity assistant" },
       {
         property: "og:description",
         content:
@@ -141,7 +141,7 @@ function Deskwork() {
   }
 
   const nav = (onSelect?: () => void) => (
-    <nav className="space-y-1" aria-label="Deskwork tools">
+    <nav className="space-y-1" aria-label="Sebenza tools">
       {TOOLS.map(({ id, label, icon: Icon }) => (
         <button
           key={id}
@@ -168,7 +168,7 @@ function Deskwork() {
     <div className="flex h-full flex-col gap-8 p-5">
       <div>
         <p className="font-serif text-2xl font-semibold tracking-tight text-sidebar-accent-foreground">
-          Deskwork
+          Sebenza
         </p>
         <p className="mt-1 text-xs text-sidebar-foreground/60">Workplace AI assistant</p>
         <p className="mt-3 text-xs font-medium text-sidebar-foreground/80">Bulelwa Bisholo</p>
@@ -195,7 +195,7 @@ function Deskwork() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="w-72 border-0 bg-sidebar p-0 text-sidebar-foreground">
-              <SheetTitle className="sr-only">Deskwork navigation</SheetTitle>
+              <SheetTitle className="sr-only">Sebenza navigation</SheetTitle>
               {sidebarInner(() => setMenuOpen(false))}
             </SheetContent>
           </Sheet>
